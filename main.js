@@ -77,8 +77,16 @@ console.log(availableBooks)
  (mantieni lo stesso formato e arrotonda al centesimo)*/
 
 
+const discountedBooks = availableBooks.map((book) => {
+    const numericPrice = parseFloat(book.price.replace('€', ''));
+    const discountePrice = (numericPrice * 0.8).toFixed(2)
+    return {
+        ...book,
+        price: `${discountePrice}`
+    }
+})
 
-
+console.log(discountedBooks)
 
 
 
