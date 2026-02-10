@@ -53,6 +53,7 @@ const books = [
 
 const longBooks = books.filter((book) => book.pages > 300)
 
+
 console.log(longBooks)
 
 //Creare un array (longBooksTitles) che contiene solo i titoli dei libri contenuti in longBooks.
@@ -74,6 +75,10 @@ console.log(availableBooks)
 /*Crea un array(discountedBooks) con gli availableBooks, 
  ciascuno con il prezzo scontato del 20 % 
  (mantieni lo stesso formato e arrotonda al centesimo)*/
+
+
+
+
 
 
 
